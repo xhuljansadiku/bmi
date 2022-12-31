@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop | Free Books Online </title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+
+    <style>
+      /*Logo */
+      .logo{
+        margin: 10px;
+        width: 60px;
+        height: auto;
+      }
+      .navi-chng{
+        font-size: 18px;
+      }
+      .logo-text{
+        color: yellow;
+       border-bottom: 1px solid white;
+      }
+      .logo-text:hover{
+        color: white;
+       border-bottom: 1px solid yellow;
+      }
+    
+    
+    #home {
+            color: yellow;
+          } 
+    #home:hover {
+            color: white;
+          } 
+    
+    #bmi-clc{
+            color: white;
+          } 
+
+    
+    #keto{
+            color: yellow;
+          } 
+    #keto:hover {
+            color: white;
+    }
+    
+    
+    #diab-{
+            color: yellow;
+          } 
+    #diab-:hover {
+            color: white;
+    }
+    
+    
+    
+    
+    
+    /*Images */
+      .img-top {
+        width: 960px;
+      }
+    
+      .img-mid {
+        width: 960px;
+      }
+      .img-last {
+        width: 960px;
+      }
+    
+      
+      .t-n{
+        text-decoration: none;
+        color: red;
+      }
+      .t-n:hover{
+        text-decoration: none;
+        color: black;
+      }
+    
+      .color-ch{
+        color: red;
+      }
+     
+    </style>
+</head>
+<body>
+     <!--   Nav Bar  -->
+     <nav class="navbar navbar-expand-lg bg-success">
+      <div class="container">
+        <a href="./index.html"><img src="./assets/img/logo.png" class="logo" alt="logo"></a> 
+        <a class="navbar-brand logo-text" href="./index.html">Body Mass Index</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 navi-chng">
+            <li class="nav-item">
+              <a class="nav-link" id="home" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" id="bmi-clc" href="./bmi-calculator.html">BMI Calculator</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="keto" href="./keto-diet.html">Keto Diet</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="diab-" href="./diabetes.html">Diabetes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Soon...</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+  </nav>
+
+   <!--  Carousel-Slide   -->
+   <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/img/1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/assets/img/2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/3.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+</div> 
+ 
+  <div class="container text-left">
+    <div class="row">
+      <h1 class="p-2">Calculate your BMI</h1>
+      <div class="col">
+        <form>
+          <label for="weight"> Your Weight:  [kg]</label><br>
+          <input type="number" id="weight" name="weight" value="" min="5" max="300" required placeholder="kg"> <br>
+          <label for="height">Your Height:  [cm]</label> <br>
+          <input type="number" id="height" name="height" value="" min="30" max="230" placeholder="cm" required>
+          <br>
+          <br>
+         <button onclick='bmiCalculator()'>Compute BMI </button>
+          <p id="output"></p>
+
+       
+
+        </form>
+      </div>
+      <div class="col">
+        <p class="mt-4">
+          A body mass index higher than 30 indicates obesity.
+          <br>
+           People with this degree of obesity are at risk  for <br> <b>serious health conditions like heart disease</b>  and <span class="color-ch"><a href="./diabetes.html" class="t-n btn-outline-danger">diabetes</a></span>.
+        </p>
+
+        <p class="mt-4">
+          To calculate your BMI, use these numbers as guidelines:
+          <ul>
+            <li>24 or under = ideal body weight</li>
+            <li>25 to 29.9 = overweight</li>
+            <li>30 or above = obese</li>
+          </ul>
+        </p>
+      </div>
+      
+    </div>
+  </div>
+  
+  <h4 id="1"></h4>
+  <p class="bmi-output"></p>
+  <p class="message"></p>
+
+
+    <footer class="py-5">
+      <div class="container">
+          <div class="row">
+              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                  <h2>BMI = Body Mass Index</h2>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center">
+                  <ul class="nav">
+                      <li class="nav-item"><a href="./index.html">Home</a></li>
+                      <li class="nav-item mx-4"><a href="./bmi-calculator.html">BMI Calculator</a></li>
+                      <li class="nav-item"><a href="./keto-diet.html">Keto Diet</a></li>
+                  </ul>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 d-flex justify-content-end">
+                  <ul class="nav">
+                      <li class="nav-item"><a href="#">Facebook</a></li>
+                      <li class="nav-item ms-4"><a href="#">Instagram</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </footer>
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+
+    <script src="./index.js"> 
+    
+
+    </script>
+</body>
+</html>

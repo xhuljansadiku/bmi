@@ -130,8 +130,8 @@
     </style>
 </head>
 <body>
-     <!--   Nav Bar  -->
-     <nav class="navbar navbar-expand-lg bg-success">
+ <!--   Nav Bar  -->
+  <nav class="navbar navbar-expand-lg bg-success">
       <div class="container">
         <a href="./index.html"><img src="./assets/img/logo.png" class="logo" alt="logo"></a> 
         <a class="navbar-brand logo-text" href="./index.html">Body Mass Index</a>
@@ -163,8 +163,7 @@
         </div>
       </div>
   </nav>
-
-   <!--  Carousel-Slide   -->
+  <!--  Carousel-Slide   -->
    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -177,47 +176,44 @@
         <img src="./assets/img/6.jpg" class="d-block w-100" alt="...">
       </div>
     </div>
-</div> 
-
+  </div> 
+<!--Main Sec.-->
   <div class="container text-left">
     <div class="row">
-      <h1 class="p-2">Calculate your BMI <a href="./bmi-calculator.html"><img src="./assets/img/logo.png" class="logo" alt="logo"></a></h1>
-      
-      <div class="col">
-        <form>
-          <label for="weight" class="weight-class"> Your Weight:</label><br>
-          <input type="number" class="weight" id="weight" name="weight" value="" min="5" max="250" placeholder="Centimeters" required > <br>
-          <label for="height" class="height-class">Your Height:</label> <br>
-          <input type="number" class="height " id="height" name="height" value="" min="50" max="250" placeholder="Kilograms" required>
-          <br>
-          <br>
-         <button class="calculate">Compute BMI </button>
-         
-        </form>
-        <h3 class="result"></h3>
-        <p class="result-statement"></p>
-      </div>
-     
+    <h1 class="p-2">Calculate your BMI <a href="./bmi-calculator.html"><img src="./assets/img/logo.png" class="logo" alt="logo"></a></h1>
+<!--Form-->
+<div class="col text-right">
+  <div>
+    <label for="weight" class="weight-class"> Your Weight:</label><br>
+      <input type="number" class="weight" id="weight" name="weight" value="" min="5" max="250" placeholder="Kg Ex. 85" required > <br>
+        <label for="height" class="height-class">Your Height:</label> <br>
+          <input type="number" class="height " id="height" name="height" value="" min="50" max="250" placeholder="Cm Ex. 1.76" required>
+        <br><br>
+      <button class="calculate">Compute BMI </button>
+    </div>
+      <h3 class="result"></h3>
+      <p class="result-statement"></p>
+</div>
+   
+<!--Info-->
+<div class="col">
+  <p class="mt-4">
+  A body mass index higher than 30 indicates obesity.
+  <br>People with this degree of obesity are at risk  for <br> 
+  <b>serious health conditions like heart disease</b>
+  and<span class="color-ch"><a href="./diabetes.html" class="t-n btn-outline-danger">diabetes</a></span>.
+  </p>
+    <p class="mt-4">
+    To calculate your BMI, use these numbers as guidelines:
+    <ul>
+      <li>24 or under = ideal body weight</li>
+      <li>25 to 29.9 = overweight</li>
+      <li>30 or above = obese</li>
+    </ul>
+    </p>
+</div>
 
-
-
-      <div class="col">
-        <p class="mt-4">
-          A body mass index higher than 30 indicates obesity.
-          <br>
-           People with this degree of obesity are at risk  for <br> <b>serious health conditions like heart disease</b>  and <span class="color-ch"><a href="./diabetes.html" class="t-n btn-outline-danger">diabetes</a></span>.
-        </p>
-        <p class="mt-4">
-          To calculate your BMI, use these numbers as guidelines:
-          <ul>
-            <li>24 or under = ideal body weight</li>
-            <li>25 to 29.9 = overweight</li>
-            <li>30 or above = obese</li>
-          </ul>
-        </p>
-      </div>
-
-    <footer class="py-5">
+<footer class="py-5">
       <div class="container">
           <div class="row">
               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
@@ -238,13 +234,11 @@
               </div>
           </div>
       </div>
-  </footer>
+</footer>
+    </div>
 
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
-
     <script src="./index.js"> 
-    
-
     </script>
 </body>
 </html>

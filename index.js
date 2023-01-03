@@ -24,3 +24,6 @@ calculateBtn.addEventListener("click", ()=>{
 }
 });
  
+
+//reset btn i must to fix
+

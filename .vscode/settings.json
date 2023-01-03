@@ -1,4 +1,12 @@
 {
     "git.enabled": true,
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "debug.javascript.autoAttachSmartPattern": [
+        "${workspaceFolder}/**",
+        "!**/node_modules/**",
+        "**/$KNOWN_TOOLS$/**",
+    ],
+    "liveServer.settings.mount": [
+    
+    ]
 }

@@ -1,0 +1,105 @@
+
+/*Logo */
+.logo{
+  margin: 10px;
+  width: 60px;
+  height: auto;
+}
+.navi-chng{
+  font-size: 18px;
+}
+.logo-text{
+  color: yellow;
+ border-bottom: 1px solid white;
+}
+.logo-text:hover{
+  color: white;
+ border-bottom: 1px solid yellow;
+}
+
+
+.keto-images {
+ width: 660px;
+}
+
+#home {
+      color: yellow;
+    } 
+
+
+#bmi-clc{
+      color: yellow;
+    } 
+#bmi-clc:hover {
+      color: white;
+    } 
+
+#keto{
+      color: white;
+    } 
+
+
+#diab- {
+      color: yellow;
+    } 
+#diab-:hover {
+      color: white;
+}
+
+
+#search{
+color: yellow;
+}
+
+#search:hover{
+color: black;
+background-color: white;
+}
+
+/*Images */
+.img-top {
+  width: 960px;
+}
+
+.img-mid {
+  width: 960px;
+}
+.img-last {
+  width: 960px;
+}
+
+
+.t-n{
+  text-decoration: none;
+  color: red;
+}
+.t-n:hover{
+  text-decoration: none;
+  color: black;
+}
+
+.color-ch{
+  color: red;
+}
+
+
+.btn-up{
+font-size: 20px;
+width: 40px;
+border-radius: 50px;
+border: 1.5px dotted black;
+}
+
+a {
+text-decoration: none;
+color: black;
+}
+ 
+.f-text{
+    color: green;
+  
+  }
+  .f-text:hover{
+    color: black;
+ 
+  }

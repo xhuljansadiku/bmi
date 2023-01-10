@@ -1,0 +1,172 @@
+
+    /*Logo */
+    .logo{
+        margin: 10px;
+        width: 60px;
+        height: auto;
+    }
+    .navi-chng{
+        font-size: 18px;
+    }
+    .logo-text{
+        color: yellow;
+       border-bottom: 1px solid white;
+    }
+    .logo-text:hover{
+        color: white;
+       border-bottom: 1px solid yellow;
+    }
+    
+     /*Navbar */
+    #home {
+            color: yellow;
+          } 
+    #home:hover {
+            color: white;
+          } 
+    
+    #bmi-clc{
+            color: white;
+          } 
+    #keto{
+            color: yellow;
+          } 
+    #keto:hover {
+            color: white;
+    }  
+  
+    
+    /*Images */
+      .img-top {
+        width: 960px;
+      }
+    
+      .img-mid {
+        width: 960px;
+      }
+      .img-last {
+        width: 960px;
+      }
+    
+       /*Span part (Diab.) */
+      .t-n{
+        text-decoration: none;
+        color: red;
+      }
+      .t-n:hover{
+        text-decoration: none;
+        color: black;
+      }
+    
+      .color-ch{
+        color: red;
+      }
+
+       /*Search */
+      #search{
+    color: yellow;
+      }
+
+      #search:hover{
+      color: black;
+      background-color: white;
+      }
+
+       /*Bmi Form */
+      .weight-class{
+      margin: 10px 0;
+      color: black;
+      background-color: whitesmoke;
+      word-spacing: 5px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 18px;
+    }
+      #weight{
+        margin: 5px 0;
+        border: 1px solid yellowgreen;
+        border-radius: 5%;
+        width: 130px;
+        font-size: 16px;
+      }
+      .height-class{
+        margin: 10px 0;
+        color: black;
+        background-color: whitesmoke;
+        word-spacing: 5px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 18px;
+      }
+      #height{
+        margin: 5px 0;
+        border: 1px solid yellowgreen;
+        border-radius: 5%;
+        width: 130px;
+        font-size: 16px;
+      }
+      a.reset{
+        font-size: 18px;
+      }
+      .reset{
+      color: black;
+      text-align: center;
+      text-decoration: none;
+      
+      }
+      .reset:hover{
+      color: black;
+      }
+      .btn-res{
+        font-size: 18px;
+        background-color:#f44336;
+        color: white;
+        border-radius: 20px;
+        border: 1.5px dotted rgb(0, 0, 0);
+      }
+      .btn-res:hover{
+        background-color:red;
+      }
+
+      button.calculate{
+        font-size: 18px;
+      }
+      .calculate{
+        font-size: 20px;
+        border-radius: 20px;
+        border: 1.5px dotted rgb(0, 0, 0);
+      }
+      .calculate:hover{
+        background-color: rgb(215, 215, 215);
+      }
+      .forma{
+        border-radius: 30px;
+        border: 2px dashed rgb(169, 161, 161);
+        height: 500px;
+        width: auto;
+        display: inline-block;
+      }
+      .hr-w{
+        width: 160px;
+        color: red;
+      }
+
+      
+  .btn-up{
+    font-size: 20px;
+    width: 40px;
+    border-radius: 50px;
+    border: 1.5px dotted black;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+ 
+  .f-text{
+    color: green;
+  
+  }
+  .f-text:hover{
+    color: black;
+ 
+  }

@@ -6,114 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Keto Diet</title>
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/keto-style.css" />
 
-    <style>
-        /*Logo */
-        .logo{
-          margin: 10px;
-          width: 60px;
-          height: auto;
-        }
-        .navi-chng{
-          font-size: 18px;
-        }
-        .logo-text{
-          color: yellow;
-         border-bottom: 1px solid white;
-        }
-        .logo-text:hover{
-          color: white;
-         border-bottom: 1px solid yellow;
-        }
-      
-
-        .keto-images {
-         width: 660px;
-        }
-      
-      #home {
-              color: yellow;
-            } 
-      
-      
-      #bmi-clc{
-              color: yellow;
-            } 
-      #bmi-clc:hover {
-              color: white;
-            } 
-      
-      #keto{
-              color: white;
-            } 
- 
-      
-      #diab- {
-              color: yellow;
-            } 
-      #diab-:hover {
-              color: white;
-      }
-      
-
-      #search{
-    color: yellow;
-  }
-
-  #search:hover{
-    color: black;
-    background-color: white;
-  }
- 
-      /*Images */
-        .img-top {
-          width: 960px;
-        }
-      
-        .img-mid {
-          width: 960px;
-        }
-        .img-last {
-          width: 960px;
-        }
-      
-        
-        .t-n{
-          text-decoration: none;
-          color: red;
-        }
-        .t-n:hover{
-          text-decoration: none;
-          color: black;
-        }
-      
-        .color-ch{
-          color: red;
-        }
-
-        
-      .btn-up{
-        font-size: 20px;
-        width: 40px;
-        border-radius: 50px;
-        border: 1.5px dotted black;
-     }
- 
-      </style>
+   
 </head>
 <body>
      <!--   Nav Bar  -->
-     <nav class="navbar navbar-expand-lg bg-success">
+     <nav class="navbar navbar-expand-lg bg-success font-nav">
       <div class="container">
-        <a href="./index.html"><img src="./assets/img/logo.png" class="logo" alt="logo"></a> 
+       <a href="./index.html"><img src="./assets/img/logo.png" class="logo" alt="logo"></a> 
         <a class="navbar-brand logo-text" href="./index.html">Body Mass Index</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 navi-chng">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 navi-chng">
             <li class="nav-item">
-              <a class="nav-link " id="home" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active" id="home" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" id="bmi-clc" href="./bmi-calculator.html">BMI Calculator</a>
@@ -125,9 +34,9 @@
               <a class="nav-link disabled" href="#">Soon...</a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-light" type="submit">Search</button>
+          <form class="d-flex">
+
+            <button class="btn btn-outline-light contact"><a href="./contact.html">Contact Us</a> </button>
           </form>
         </div>
       </div>
@@ -262,7 +171,7 @@
       <div class="container">
           <div class="row">
               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                  <h2>BMI = Body Mass Index</h2>
+                <h2 ><a class="f-text" href="/index.html">BMI = Body Mass Index</a></h2>
               </div>
               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center">
                   <ul class="nav">
@@ -273,8 +182,6 @@
               </div>
               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 d-flex justify-content-end">
                   <ul class="nav">
-                      <li class="nav-item"><a href="#">Facebook</a></li>
-                      <li class="nav-item ms-4"><a href="#">Instagram</a></li>
                       <li class="nav-item ms-4 "><a href="./keto-diet.html"><button class="btn-up" >&uarr;</button></a></li> 
                   </ul>
               </div>

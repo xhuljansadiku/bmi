@@ -6,200 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BMI Calculator</title>
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
-
-    <style>
-    /*Logo */
-    .logo{
-        margin: 10px;
-        width: 60px;
-        height: auto;
-    }
-    .navi-chng{
-        font-size: 18px;
-    }
-    .logo-text{
-        color: yellow;
-       border-bottom: 1px solid white;
-    }
-    .logo-text:hover{
-        color: white;
-       border-bottom: 1px solid yellow;
-    }
+    <link rel="stylesheet" href="./assets/css/bmi-style.css"> 
     
-     /*Navbar */
-    #home {
-            color: yellow;
-          } 
-    #home:hover {
-            color: white;
-          } 
-    
-    #bmi-clc{
-            color: white;
-          } 
-    #keto{
-            color: yellow;
-          } 
-    #keto:hover {
-            color: white;
-    }  
-  
-    
-    /*Images */
-      .img-top {
-        width: 960px;
-      }
-    
-      .img-mid {
-        width: 960px;
-      }
-      .img-last {
-        width: 960px;
-      }
-    
-       /*Span part (Diab.) */
-      .t-n{
-        text-decoration: none;
-        color: red;
-      }
-      .t-n:hover{
-        text-decoration: none;
-        color: black;
-      }
-    
-      .color-ch{
-        color: red;
-      }
-
-       /*Search */
-      #search{
-    color: yellow;
-      }
-
-      #search:hover{
-      color: black;
-      background-color: white;
-      }
-
-       /*Bmi Form */
-      .weight-class{
-      margin: 10px 0;
-      color: black;
-      background-color: whitesmoke;
-      word-spacing: 5px;
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-      font-size: 18px;
-    }
-      #weight{
-        margin: 5px 0;
-        border: 1px solid yellowgreen;
-        border-radius: 5%;
-        width: 130px;
-        font-size: 16px;
-      }
-      .height-class{
-        margin: 10px 0;
-        color: black;
-        background-color: whitesmoke;
-        word-spacing: 5px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 18px;
-      }
-      #height{
-        margin: 5px 0;
-        border: 1px solid yellowgreen;
-        border-radius: 5%;
-        width: 130px;
-        font-size: 16px;
-      }
-      a.reset{
-        font-size: 18px;
-      }
-      .reset{
-      color: black;
-      text-align: center;
-      text-decoration: none;
-      
-      }
-      .reset:hover{
-      color: black;
-      }
-      .btn-res{
-        font-size: 18px;
-        background-color:#f44336;
-        color: white;
-        border-radius: 20px;
-        border: 1.5px dotted rgb(0, 0, 0);
-      }
-      .btn-res:hover{
-        background-color:red;
-      }
-
-      button.calculate{
-        font-size: 18px;
-      }
-      .calculate{
-        font-size: 20px;
-        border-radius: 20px;
-        border: 1.5px dotted rgb(0, 0, 0);
-      }
-      .calculate:hover{
-        background-color: rgb(215, 215, 215);
-      }
-      .forma{
-        border-radius: 30px;
-        border: 2px dashed rgb(169, 161, 161);
-        height: 500px;
-        width: auto;
-        display: inline-block;
-      }
-      .hr-w{
-        width: 160px;
-        color: red;
-      }
-
-      
-  .btn-up{
-    font-size: 20px;
-    width: 40px;
-    border-radius: 50px;
-    border: 1.5px dotted black;
-  }
- 
- 
-    </style>
 </head>
 <body>
  <!--   Nav Bar  -->
-  <nav class="navbar navbar-expand-lg bg-success">
-      <div class="container">
-        <a href="./index.html"><img src="./assets/img/logo.png" class="logo" alt="logo"></a> 
-        <a class="navbar-brand logo-text" href="./index.html">Body Mass Index</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 navi-chng">
-            <li class="nav-item">
-              <a class="nav-link" id="home" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" id="bmi-clc" href="./bmi-calculator.html">BMI Calculator</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="keto" href="./keto-diet.html">Keto Diet</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Soon...</a>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-light" type="submit">Search</button>
-          </form>
-        </div>
-      </div>
-  </nav>
+ <nav class="navbar navbar-expand-lg bg-success font-nav">
+  <div class="container">
+   <a href="./index.html"><img src="./assets/img/logo.png" class="logo" alt="logo"></a> 
+    <a class="navbar-brand logo-text" href="./index.html">Body Mass Index</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 navi-chng">
+        <li class="nav-item">
+          <a class="nav-link active" id="home" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="bmi-clc" href="./bmi-calculator.html">BMI Calculator</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="keto" href="./keto-diet.html">Keto Diet</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Soon...</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+
+        <button class="btn btn-outline-light contact"><a href="./contact.html">Contact Us</a> </button>
+      </form>
+    </div>
+  </div>
+</nav>
 
 
   <!--  Carousel-Slide   -->
@@ -266,7 +106,7 @@
       <div class="container">
           <div class="row">
             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-              <h2 class="f-text">BMI = Body Mass Index  </h2>
+              <h2 ><a class="f-text" href="/bmi-calculator.html">BMI = Body Mass Index</a></h2>
           </div>
               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center">
                   <ul class="nav">
@@ -277,8 +117,6 @@
               </div>
               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 d-flex justify-content-end">
                   <ul class="nav">
-                      <li class="nav-item"><a href="#">Facebook</a></li>
-                      <li class="nav-item ms-4"><a href="#">Instagram</a></li>
                       <li class="nav-item ms-4 "><a href="./bmi-calculator.html"><button class="btn-up" >&uarr;</button></a></li> 
                   </ul>
               </div>

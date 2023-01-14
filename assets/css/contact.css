@@ -148,7 +148,7 @@ input[type=checkbox]:checked + label {
 
  /*Navbar */
   #home {
-  color: white;
+  color: yellow;
   } 
   #bmi-clc{
   color: yellow;
@@ -222,3 +222,14 @@ input[type=checkbox]:checked + label {
     border: 1.5px dotted black;
   } 
 
+
+  h1, h2 {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 5px;
+  }
+  h4 {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+  

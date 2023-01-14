@@ -25,6 +25,10 @@
 #home {
       color: yellow;
     } 
+    #home:hover {
+      color: white;
+    } 
+
 
 
 #bmi-clc{
@@ -38,23 +42,14 @@
       color: white;
     } 
 
-
-#diab- {
-      color: yellow;
-    } 
-#diab-:hover {
-      color: white;
+#exercise {
+  color: yellow;
+}
+#exercise:hover {
+  color: white;
 }
 
 
-#search{
-color: yellow;
-}
-
-#search:hover{
-color: black;
-background-color: white;
-}
 
 /*Images */
 .img-top {
@@ -102,4 +97,11 @@ color: black;
   .f-text:hover{
     color: black;
  
+  }
+  h1, h2 {
+    font-family: 'Anton', sans-serif;
+  }
+  p {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 16px;
   }

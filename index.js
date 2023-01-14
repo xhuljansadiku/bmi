@@ -15,13 +15,13 @@ calculateBtn.addEventListener("click", ()=>{
 
 
   if(BMI < 18.5){
-    statement.innerText = "Underweight 😒";    
+    statement.innerText = "You are Underweight 😒";    
   }else if((BMI > 18.5) && (BMI < 24.9)){ 
-    statement.innerText = "Normal Weight 😍";
+    statement.innerText = "Your are in Normal Weight 😍";
   }else if((BMI > 25) && (BMI < 29.9 )){
-    statement.innerText = "Overweight 😮";
+    statement.innerText = "You are Overweight, you need to go on a diet! 😮";
   }else{
-    statement.innerText = "Obese 😱";
+    statement.innerText = "Your are Obese, you have to lose some weight quick! 😱";
 }
 });
  

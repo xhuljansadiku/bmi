@@ -18,7 +18,7 @@
   }
 
  /*Navbar */
-  #home {
+  #exercise {
   color: white;
   } 
   #bmi-clc{
@@ -34,8 +34,12 @@
   #keto:hover {
           color: white;
   }
- 
-
+ #home {
+    color: yellow;
+ }
+ #home:hover {
+    color: white;
+ }
 /*Images */
   .img-top {
     width: 960px;
@@ -98,19 +102,12 @@ a {
     color: black;
   }
  
-h1, h2 {
-  font-family: 'Anton', sans-serif;
-}
-p {
-  font-family: 'Roboto Flex', sans-serif;
-  font-size: 16px;
-}
+  h1, h2, h3 {
+    font-family: 'Anton', sans-serif;
+  }
+  p {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 16px;
+  }
 
-
-.footer-btn {
  
-  border-bottom: 2px solid rgb(29, 121, 38);
-   
-  border-radius: 10px;
- 
-}

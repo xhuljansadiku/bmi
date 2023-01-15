@@ -42,12 +42,23 @@
       color: white;
     } 
 
-#exercise {
+#exercises {
   color: yellow;
 }
-#exercise:hover {
+#exercises:hover {
   color: white;
 }
+
+#weather {
+  color: yellow;
+}
+#weather:hover {
+  color: white;
+}
+ 
+ 
+
+
 
 
 
@@ -104,4 +115,12 @@ color: black;
   p {
     font-family: 'Roboto Flex', sans-serif;
     font-size: 16px;
+  }
+
+  .footer-btn {
+ 
+    border-bottom: 2px solid rgb(29, 121, 38);
+     
+    border-radius: 10px;
+   
   }

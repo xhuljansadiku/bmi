@@ -34,6 +34,12 @@
     #keto:hover {
             color: white;
     }  
+    #exercises{
+      color: yellow;
+    }
+    #exercises:hover{
+      color: white;
+    }
   
     
       /*Span part (Diab.) */
@@ -173,3 +179,10 @@
     font-size: 16px;
   }
  
+  .footer-btn {
+ 
+    border-bottom: 2px solid rgb(29, 121, 38);
+     
+    border-radius: 10px;
+   
+  }

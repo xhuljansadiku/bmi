@@ -18,9 +18,13 @@
   }
 
  /*Navbar */
-  #exercises {
-  color: white;
+ #home {
+  color: yellow;
   } 
+  #home:hover {
+    color: white;
+    } 
+
   #bmi-clc{
   color: yellow;
   } 
@@ -28,29 +32,28 @@
   color: white;
   } 
 
+
   #keto{
           color: yellow;
         } 
   #keto:hover {
           color: white;
   }
- #home {
-    color: yellow;
- }
- #home:hover {
-    color: white;
- }
-/*Images */
-  .img-top {
-    width: 960px;
-  }
 
-  .img-mid {
-    width: 960px;
-  }
-  .img-last {
-    width: 960px;
-  }
+  #exercises{
+    color: yellow;
+  } 
+  #exercises:hover {
+    color: white;
+}
+ 
+  #weather{
+    color: white;
+  } 
+  #weather:hover {
+    color:  yellow;
+}
+
 
   /*Span part (Diab.) */
   .t-n{
@@ -102,18 +105,47 @@ a {
     color: black;
   }
  
-  h1, h2, h3 {
-    font-family: 'Anton', sans-serif;
-  }
-  p {
-    font-family: 'Roboto Flex', sans-serif;
-    font-size: 16px;
-  }
+h1, h2 {
+  font-family: 'Anton', sans-serif;
+}
+p {
+  font-family: 'Roboto Flex', sans-serif;
+  font-size: 16px;
+}
 
-  .footer-btn {
+
+.footer-btn {
  
-    border-bottom: 2px solid rgb(29, 121, 38);
-     
-    border-radius: 10px;
+  border-bottom: 2px solid rgb(29, 121, 38);
    
-  }
+  border-radius: 10px;
+ 
+}
+/* Extra*/
+
+ 
+
+/* Add some basic styling to the page */
+body {
+  
+  text-align: center;
+  background-image: url("https://wallpaper.dog/large/17087193.jpg");
+  background-size: cover;
+}
+
+/* Style the form */
+form {
+  margin-top: 20px;
+}
+
+/* Style the weather data display */
+#weather-data {
+  margin-top: 20px;
+  font-size: 18px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+ 
